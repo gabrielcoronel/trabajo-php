@@ -1,0 +1,22 @@
+table {
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+td, th {
+  text-align: center;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid black;
+}
+
+th {
+  background-color: black;
+  color: white;
+  font-weight: 700;
+}
+
+td {
+  background-color: white;
+  color: darkgrey;
+  font-style: italic;
+}

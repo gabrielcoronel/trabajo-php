@@ -1,0 +1,26 @@
+form {
+  background-color: white;
+  color: black;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+form label {
+  font-weight: bold;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+form input {
+  font-style: italic;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+form button {
+  background-color: black;
+  color: white;
+  grid-column: 1 / 3;
+  grid-row: 2;
+}
